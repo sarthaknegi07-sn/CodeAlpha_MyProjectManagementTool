@@ -2,12 +2,7 @@
 
 A full-stack project management platform that helps users create projects, manage tasks, track progress, and collaborate through comments.
 
-Built with Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript.
-
-# 🚀 Project Management Tool
-
-A full-stack **Project Management System** built using **Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript**.  
-The application allows users to manage projects, create tasks, update task status, add comments, and organize workflow efficiently.
+Built using **Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript**.
 
 ---
 

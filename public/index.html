@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT MANAGEMENT TOOL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Project Management Tool</h1>
+    <input type="text" id="projectName" placeholder="Enter Project Name">
+    <button onclick="createProject()">Create Project</button>
+    <hr>
+    <h2>All Projects</h2>
+    <div id="project-container"></div>
+    <h2>Create Task</h2>
+    <input type="text" id="projectId" placeholder="Enter Project ID">
+    <input type="text" id="taskName" placeholder="Enter Task Name">
+    <input type="text" id="assignedTo" placeholder="Assign To">
+    <button onclick="createTask()">Create Task</button>
+    <hr>
+    <h2>All Tasks</h2>
+    <div id="task-container"></div>
+    <hr>
+    <h2>Add Comment</h2>
+    <input type="text" id="taskId" placeholder="Enter task ID">
+    <input type="text" id="username" placeholder="Username">
+    <input type="text" id="comment" placeholder="Write Comment">
+    <button onclick="addComment()">Add Comment</button>
+    <hr>
+    <h2>All Comments</h2>
+    <div id="comment-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>

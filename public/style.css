@@ -1,0 +1,75 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background:white;
+   margin:0;
+   padding:20px;
+}
+
+h1,h2{
+  color:rgb(63, 63, 63);
+}
+
+input,select{
+    padding:10px;
+    margin:5px;
+    border:1px solid white;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    background:rgb(0, 115, 255);
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:rgb(0, 72, 255);
+}
+
+#project-container div,
+#task-container div,
+#comment-container div{
+    background:white;
+    padding:15px;
+    margin:10px 0;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+hr{
+    border:none;
+    border-top:1px solid white;
+    margin:20px 0;
+}
+
+.container{
+    width:350px;
+    margin:80px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+.container input{
+    width:90%;
+    margin:10px 0;
+}
+
+.container button{
+    width:95%;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(0,115,255);
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration:underline;
+}

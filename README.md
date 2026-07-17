@@ -12,7 +12,7 @@ Built using **Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript**.
 - User registration 
 - User login authentication 
 - Secure user data storage using MongoDB
-- 
+  
 ### 📁 Project Management
 - Create new projects
 - Store project details permanently in MongoDB
